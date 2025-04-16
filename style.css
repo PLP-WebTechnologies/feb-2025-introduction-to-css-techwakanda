@@ -1,0 +1,47 @@
+/* style.css */
+
+/* 1. Selector for element ID */
+#main-container {
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    font-family: 'Helvetica', sans-serif;
+    color: #333;
+  }
+  
+  /* 2. Class selector for all paragraph elements */
+  .text-content {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  /* 3. Image selector with a class */
+  .featured-image {
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+    border: 5px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  
+  /* Different font for heading */
+  h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    color: #444;
+    text-align: center;
+  }
+  
+  /* Additional Styles */
+  body {
+    background-color: #f4f4f4;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    line-height: 1.5;
+  }
